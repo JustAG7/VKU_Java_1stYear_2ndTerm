@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>John</name>
+        <classroom>Mathematics</classroom>
+        <score>95</score>
+        <phone>123-456-7890</phone>
+    </student>
+    <student>
+        <name>Jane</name>
+        <classroom>English</classroom>
+        <score>85</score>
+        <phone>555-555-5555</phone>
+    </student>
+    <student>
+        <name>Bob</name>
+        <classroom>Science</classroom>
+        <score>70</score>
+        <phone>999-999-9999</phone>
+    </student>
+</students>
+
