@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="720" maxWidth="1309.0" minHeight="720" minWidth="1180" prefHeight="720" prefWidth="1309.0" style="-fx-background-color: #F4FAFAFF;" stylesheets="@img/stylesheet.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dpp.dpp.Controller">
+    <children>
+
+        <Button layoutX="548.0" layoutY="657.0" onAction="#startAction" prefHeight="41.0" prefWidth="107.0" style="-fx-background-radius: 20; -fx-background-color: #5ECEE4FF;" text="Start">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor></Button>
+
+        <Button layoutX="687.0" layoutY="657.0" onAction="#stopAction" prefHeight="41.0" prefWidth="107.0" style="-fx-background-radius: 20; -fx-background-color: #A7DEF3FF;" text="Stop">
+            <font>
+                <Font name="System Bold" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="CLOSED_HAND" />
+            </cursor></Button>
+
+        <ImageView fitHeight="400" fitWidth="400" layoutX="280" layoutY="160" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: black;">
+            <image>
+                <Image url="@img/Table.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="aristotle" fitHeight="120" fitWidth="120" layoutX="413.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Aristotle-Thinking.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="447.0" layoutY="80.0" text="Philosopher 1" />
+
+        <ImageView fx:id="descartes" fitHeight="120" fitWidth="120" layoutX="680.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Descartes-Thinking.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="711.0" layoutY="287.0" text="Philosopher 2" />
+
+        <ImageView fx:id="russell" fitHeight="120" fitWidth="120" layoutX="601.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Russell-Thinking.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="632.0" layoutY="565.0" text="Philosopher 3" />
+
+        <ImageView fx:id="marx" fitHeight="120" fitWidth="120" layoutX="206.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Marx-Thinking.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="237.0" layoutY="565.0" text="Philosopher 4" />
+
+        <ImageView fx:id="kant" fitHeight="120" fitWidth="120" layoutX="146.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/Kant-Thinking.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="177.0" layoutY="287.0" text="Philosopher 5" />
+
+        <ImageView fx:id="chopstick1" fitHeight="80" fitWidth="80" layoutX="522.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/chopstick01.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="chopstick2" fitHeight="80" fitWidth="80" layoutX="556.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/chopstick02.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="chopstick3" fitHeight="80" fitWidth="80" layoutX="480.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/chopstick03.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="chopstick4" fitHeight="80" fitWidth="80" layoutX="326.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/chopstick04.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="chopstick5" fitHeight="80" fitWidth="80" layoutX="366.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@img/chopstick05.png" />
+            </image>
+        </ImageView>
+
+        <TextArea fx:id="logTextArea" layoutX="836.0" layoutY="5.0" prefHeight="707.0" prefWidth="456.0" style="-fx-background-color: #F4FAFAFF;">
+            <font>
+                <Font size="18.0" />
+            </font></TextArea>
+    </children>
+
+</AnchorPane>
