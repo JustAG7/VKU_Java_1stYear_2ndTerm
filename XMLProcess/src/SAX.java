@@ -7,8 +7,10 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+import org.w3c.dom.Document;
 
 class StudentHandler extends DefaultHandler {
+    private Document doc;
     private ArrayList<Student> studentList = new ArrayList<>();
     private Student student;
     private StringBuilder data;
@@ -45,6 +47,12 @@ class StudentHandler extends DefaultHandler {
                 break;
         }
     }
+    public void getDocument(Document doc) {
+        this.doc = doc;
+    }
+    public Document getDocument() {
+        return doc;
+    }
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
@@ -57,6 +65,8 @@ class StudentHandler extends DefaultHandler {
             SAXParser saxParser = factory.newSAXParser();
             StudentHandler handler = new StudentHandler();
             saxParser.parse(new File("/home/justa/IdeaProjects/XMLProcess/src/Student.xml"), handler);
+            Document doc = handler.getDocument();
+            doc.getDocumentElement().normalize();
             for (Student student : handler.getStudentList()) {
                 System.out.println(student);
             }

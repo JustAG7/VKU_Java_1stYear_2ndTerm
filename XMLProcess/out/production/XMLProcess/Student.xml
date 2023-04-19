@@ -7,11 +7,11 @@
         <phone>123-456-7890</phone>
     </student>
     <student>
-        <name>Jane</name>
+        <name>Jane
         <classroom>English</classroom>
-        <score>85</score>
+        <score>8.5</score>
         <phone>555-555-5555</phone>
-    </student>
+    </name></student>
     <student>
         <name>Bob</name>
         <classroom>Science</classroom>

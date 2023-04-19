@@ -10,5 +10,7 @@
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="mssql-jdbc-11.2.1.jre18" level="project" />
     <orderEntry type="library" name="mysql-connector-j-8.0.32" level="project" />
+    <orderEntry type="library" name="jsoup-1.15.4" level="project" />
+    <orderEntry type="library" name="commons-io-2.11.0" level="project" />
   </component>
 </module>
