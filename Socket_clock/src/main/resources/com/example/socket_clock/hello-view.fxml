@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.example.socket_clock.HelloController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox fx:id="timezoneComboBox" layoutX="325.0" layoutY="71.0" prefWidth="150.0" />
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="39.0" layoutY="75.0" prefHeight="16.0" prefWidth="210.0" text="Select City" />
+      <Button layoutX="269.0" layoutY="119.0" mnemonicParsing="false" text="Go!" />
+      <Label fx:id="timeLabel" alignment="CENTER" layoutX="75.0" layoutY="254.0" prefHeight="46.0" prefWidth="450.0" />
+   </children>
+</AnchorPane>
