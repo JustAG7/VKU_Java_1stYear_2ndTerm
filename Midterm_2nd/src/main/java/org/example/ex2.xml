@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+  <result>
+    <Index>1</Index>
+    <ID>A421</ID>
+    <Name>Nguyen Van A</Name>
+    <DoB>2023-05-01</DoB>
+    <Email>asfasf@gmail.com</Email>
+    <Tel>4124 41251 5345</Tel>
+  </result>
+  <result>
+    <Index>2</Index>
+    <ID>B452</ID>
+    <Name>Vo Van B</Name>
+    <DoB>2023-05-05</DoB>
+    <Email>asddqw3@gmail.com</Email>
+    <Tel>613 4415 51325</Tel>
+  </result>
+</results>
